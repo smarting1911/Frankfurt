@@ -617,6 +617,10 @@ header a:hover{
     transform: translate(-50%,-50%)
 }
 
+.vertical{
+    display: none;
+}
+
 /* se ubica y escala titulo de portada*/
 #explora{
     transform: translate(-52%,-125%) scale(0.6);
@@ -1154,9 +1158,16 @@ section ul li{
         position: absolute;
         top: 425px;
         left: 50%;
-        transform: translate(-30%,-180%) rotate(90deg) scale(0.8);
+        transform: translate(-33%,-180%) rotate(90deg) scale(0.8);
     }
-
+    
+    .horizontal{
+        display: none;
+    }
+    
+    .vertical{
+        display: block;
+    }
     /* se ubica y escala titulo de portada*/
     #explora{
         transform: translate(-65%,-140%) scale(0.4) rotate(0deg);
@@ -1179,39 +1190,39 @@ section ul li{
 
     /* ------------------- Se ubica el div para cada uno de los botones ------------------------------ */
     .content-1{
-        transform: translate(130%,-355%);
+        transform: translate(110%,-355%);
     }
 
     .content-2{
-        transform: translate(10%,-250%);
+        transform: translate(-10%,-250%);
     }
 
     .content-3{
-        transform: translate(130%,-180%);
+        transform: translate(110%,-180%);
     }
 
     .content-4{
-        transform: translate(10%,-70%);
+        transform: translate(-10%,-70%);
     }
 
     .content-5{
-        transform: translate(130%,-75%);
+        transform: translate(110%,-75%);
     }
 
     .content-6{
-        transform: translate(10%,50%);
+        transform: translate(-10%,50%);
     }
 
     .content-7{
-        transform: translate(130%,25%);
+        transform: translate(110%,25%);
     }
 
     .content-8{
-        transform: translate(10%,130%);
+        transform: translate(-10%,130%);
     }
 
     .content-9{
-        transform: translate(130%,95%);
+        transform: translate(110%,95%);
     }
      
     .content-2 a, .content-4 a, .content-6 a, .content-8 a{

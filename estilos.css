@@ -958,6 +958,34 @@ section ul li{
 /* -------------------estilo para el celular -------------------*/
 /*----------- Se escalan y reposicionan los objetos -----------*/
 @media only screen and (max-width: 680px) { 
+    
+    body{
+        background-image: url(Imagenes/bg_Index_mobile1.jpg);
+        background-size: 100%;
+    }
+    
+    #bg_ub{
+    background-image: url(Imagenes/bg_location_mobile.jpg); /* indicando ubicacion de la nueva imagen */
+    background-size: 100%;
+    }
+
+    #bg_po{
+        background-image: url(Imagenes/bg_population_mobile.jpg);
+        background-size: 100%;
+    }
+
+    #bg_ac{
+        background-image: url(Imagenes/bg_activities_mobile.jpg);
+
+    }
+
+    #bg_hi{
+        background-image: url(Imagenes/bg_history_mobile.jpg);
+    }
+
+    #bg_ref{
+        background-image: url(Imagenes/REF_mobile.jpg);
+    }
      
      /* ------------------- Menu desplegable -------------------*/
      /* ------------------- ajustando header -------------------*/

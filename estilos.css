@@ -1167,9 +1167,8 @@ section ul li{
     #indicacion{
         width: 30%;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-100%,-650%);
+        top: -80px;
+        left: 70px;
     }
      
      /* se corrige el estilo de los botones izquierdos de la linea de tiempo*/
@@ -1180,39 +1179,39 @@ section ul li{
 
     /* ------------------- Se ubica el div para cada uno de los botones ------------------------------ */
     .content-1{
-        transform: translate(130%,-325%);
+        transform: translate(130%,-355%);
     }
 
     .content-2{
-        transform: translate(10%,-220%);
+        transform: translate(10%,-250%);
     }
 
     .content-3{
-        transform: translate(130%,-150%);
+        transform: translate(130%,-180%);
     }
 
     .content-4{
-        transform: translate(10%,-40%);
+        transform: translate(10%,-70%);
     }
 
     .content-5{
-        transform: translate(130%,-45%);
+        transform: translate(130%,-75%);
     }
 
     .content-6{
-        transform: translate(10%,80%);
+        transform: translate(10%,50%);
     }
 
     .content-7{
-        transform: translate(130%,55%);
+        transform: translate(130%,25%);
     }
 
     .content-8{
-        transform: translate(10%,160%);
+        transform: translate(10%,130%);
     }
 
     .content-9{
-        transform: translate(130%,125%);
+        transform: translate(130%,95%);
     }
      
     .content-2 a, .content-4 a, .content-6 a, .content-8 a{

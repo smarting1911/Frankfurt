@@ -953,7 +953,7 @@ section ul li{
 
 /* -------------------estilo para el celular -------------------*/
 /*----------- Se escalan y reposicionan los objetos -----------*/
- @media only screen and (max-width: 680px){
+@media only screen and (max-width: 680px) { 
      
      /* ------------------- Menu desplegable -------------------*/
      /* ------------------- ajustando header -------------------*/
@@ -1024,23 +1024,23 @@ section ul li{
      
      /* reubicando botones de menu auxiliar*/
      .title #ubicacion{
-         transform: translate(-150%, 100%) scale(1);
+         transform: translate(-160%, 100%) scale(1);
      }
      
      .title #poblacion{
-         transform: translate(-80%, 100%) scale(1);
+         transform: translate(-90%, 100%) scale(1);
      }
      
      .title #actividades{
-         transform: translate(-10%, 100%) scale(1);
+         transform: translate(-20%, 100%) scale(1);
      }
      
      .title #historia{
-         transform: translate(60%, 100%) scale(1);
+         transform: translate(50%, 100%) scale(1);
      }
      
      .title #referencias{
-         transform: translate(130%, 100%) scale(1);
+         transform: translate(120%, 100%) scale(1);
      }
      
      /* reubicando titulo de poblacion*/
@@ -1072,11 +1072,11 @@ section ul li{
      /* reacomodando titulo de actividades */
 
      .title_activities img{
-         visibility: hidden;
+         display: none;
      }
      
      #explore{
-         visibility: visible;
+         display: block;
          transform: translate(-50%,-130%) scale(0.65);
      }
      
@@ -1087,66 +1087,66 @@ section ul li{
      /* reacomodando botones de actividades */
      
      #hauptbahnhof{
-         transform: translate(-120%,-0%) scale(0.8);
-         visibility: visible;
+         transform: translate(-120%,-0%) scale(0.7);
+         display: block;
      }
      
      #hauptbahnhof:hover{
-         transform: translate(-120%,-0%) scale(0.85);
+         transform: translate(-120%,-0%) scale(0.75);
      }
      
      #oper{
-         transform: translate(-40%,-10%) scale(0.8);
-         visibility: visible;
+         transform: translate(-50%,-10%) scale(0.7);
+         display: block;
      }
      
      #oper:hover{
-         transform: translate(-40%,-10%) scale(0.85);
+         transform: translate(-50%,-10%) scale(0.75);
      }
      
      #tower{
-         transform: translate(80%,-20%) scale(0.8);
-         visibility: visible;
+         transform: translate(60%,-20%) scale(0.7);
+         display: block;
      }
      
      #tower:hover{
-         transform: translate(80%,-20%) scale(0.85);
+         transform: translate(60%,-20%) scale(0.75);
      }
      
     #romer{
-         transform: translate(-120%,70%) scale(0.8);
-         visibility: visible;
+         transform: translate(-120%,70%) scale(0.7);
+         display: block;
      }
      
      #romer:hover{
-         transform: translate(-120%,70%) scale(0.85);
+         transform: translate(-120%,70%) scale(0.75);
      }
      
      #museum{
-         transform: translate(-40%,70%) scale(0.8);
-         visibility: visible;
+         transform: translate(-50%,70%) scale(0.7);
+         display: block;
      }
      
      #museum:hover{
-         transform: translate(-40%,70%) scale(0.85);
+         transform: translate(-50%,70%) scale(0.75);
      }
      
      #steg{
-         transform: translate(48%,60%) scale(0.8);
-         visibility: visible;
+         transform: translate(28%,60%) scale(0.7);
+         display: block;
      }
      
      #steg:hover{
-         transform: translate(48%,60%) scale(0.85);
+         transform: translate(28%,60%) scale(0.75);
      }
      
      #zoo{
-         transform: translate(-40%,150%) scale(0.8);
-         visibility: visible;
+         transform: translate(-50%,150%) scale(0.7);
+         display: block;
      }
      
      #zoo:hover{
-         transform: translate(-40%,150%) scale(0.85);
+         transform: translate(-50%,150%) scale(0.75);
      }
      
      /* reubicando imagen linea de tiempo */
@@ -1232,6 +1232,26 @@ section ul li{
     .menu_ref-3{
         transform: translate(-50%,60%) scale(0.6);
     }
+    
+    table{
+        margin: 0;
+    }
+    
+    .video{
+        width: 80vw;
+        height: 255px;
+        padding: 0;
+
+    }
+    
+    .video iframe{
+        transform: translate(-50%,-50%) scale(0.5);
+    }
+    
+    .title_location img:hover{
+    background-image: url(Imagenes/location2.png); /* se indica la imagen a mostrar al hacer hover */
+    background-size: 100%; /* se ajusta el tamaño para la nueva imagen */
+}
 }
 
 /* -------------------estilo para el celular -------------------*/
